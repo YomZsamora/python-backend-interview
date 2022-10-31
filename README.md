@@ -45,6 +45,10 @@ The Service must be composed of one API that logs trip details via an HTTP URL.
     7. While in MySQL CLI, import the sql file via `docker exec -i container_name mysql -uroot dbname < db_backup.sql;`
 
 ### API Endpoints
+
+Find Full API Endpoint Documentation [here](https://documenter.getpostman.com/view/5057424/2s8YRgqZoT)
+
+
 | HTTP Verbs | Endpoints | Action |
 | --- | --- | --- |
 | POST | /api/register | To sign up a new user account |
