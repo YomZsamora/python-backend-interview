@@ -1,9 +1,9 @@
 # Python-Backend-Interview
 
-An application that lists news articles from various sources and helps the busy people to keep up with the current affairs.
+Amitruck and its partners want to start recording trip details in its MySQL database. In order yo achieve that, Amitruck decided to build a service composed of APIs to help AmiTruck and its partners achieve the goal of capturing trip details
 
 ## Description
-This application is developed to help a user to go through everyday's highlights. User can follow the link to the source in case he/she wants to read the full article about any news. User can see the image, description and the time a news article was created. User can select a news source from various news sources and can read all the news articles from that particular source.
+The Service must be composed of one API that logs trip details via an HTTP URL.
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@ This application is developed to help a user to go through everyday's highlights
 
 ## Setup Instructions and Installation
 
-- Clone this repository to a location in your file system. `git clone https://github.com/YomZsamora/Watchlist.git`
+- Clone this repository to a location in your file system. `git clone https://github.com/YomZsamora/python-backend-interview.git`
 - Create a virtual environment `python -m venv venv` then activate with `source venv/bin/activate `
 - Read the requirements file and Install all the requirements `pip install -r requirements.txt`
 - Setup a MySQL Database engine. Open settings.py and change declaration of the DB_NAME, DB_USER & DB_PASSWORD
