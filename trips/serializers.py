@@ -47,7 +47,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 
 
 
-############################## 
+######################
 # Models Serializers #
 
 # Driver Model Serializer

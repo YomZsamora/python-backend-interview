@@ -40,7 +40,7 @@ class LoginView(APIView):
         if not user:
             return Response({'error': 'Invalid Credentials'}, status=status.HTTP_404_NOT_FOUND)
         token, _ = Token.objects.get_or_create(user=user)
-        return Response({'token': token.key}, status=status.HTTP_200_OK)
+        return Response({'token': token.key, 'message': 'User Logged In Successfully!'}, status=status.HTTP_200_OK)
     
     def get(self, request):
         content = {"user": str(request.user), "auth": str(request.auth)}
